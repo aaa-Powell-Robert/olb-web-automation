@@ -6,7 +6,7 @@ This is a java/TestNG project drives Selenium to verify behavior of OLB.
 
 ### Selenium jar
 
-Download `selenium-java-3.11.0.zip` from from https://goo.gl/Us5DnZ and save/extract jar files; for example, uncer `C:\EclipseLibraries\Selenium-3.11.0`:
+Download `selenium-java-3.11.0.zip` from from https://goo.gl/Us5DnZ and save/extract jar files; for example, under `C:\EclipseLibraries\Selenium-3.11.0`:
 
 ```
 C:\EclipseLibraries\Selenium-3.11.0\client-combined-3.11.0.jar
