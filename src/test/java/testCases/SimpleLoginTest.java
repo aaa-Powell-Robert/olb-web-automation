@@ -1,4 +1,4 @@
-package testCases;
+package test.java.testCases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -6,10 +6,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import pageObjects.OLBContactInfoPage;
-import pageObjects.OLBMainPage;
-import utilities.DriverFactory;
-import utilities.DriverFactory.BrowserType;
+import test.java.pageObjects.OLBContactInfoPage;
+import test.java.pageObjects.OLBMainPage;
+import test.java.utilities.DriverFactory;
+import test.java.utilities.DriverFactory.BrowserType;
 
 public class SimpleLoginTest {
 	public WebDriver driver;

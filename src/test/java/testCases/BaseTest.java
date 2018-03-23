@@ -1,4 +1,4 @@
-package testCases;
+package test.java.testCases;
 
 import java.util.concurrent.TimeUnit;
 
@@ -7,8 +7,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-import utilities.DriverFactory;
-import utilities.DriverFactory.BrowserType;
+import test.java.utilities.DriverFactory;
+import test.java.utilities.DriverFactory.BrowserType;
 
 public class BaseTest {
 	

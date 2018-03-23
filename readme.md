@@ -2,7 +2,33 @@
 
 This is a java/TestNG project drives Selenium to verify behavior of OLB.
 
-## Setup - Windows
+# Running project
+
+## Setup chromedriver
+
+Copy the `chromedriver.exe` from `G:\ProductAssurance\Selenium POC\SandboxLibraries\chromedriver_win32\chromedriver.exe` to `C:\SandboxLibraries\chromedriver_win32\chromedriver.exe`
+
+Modify the value in `utilities\Constant.Java` as the path to the chrome driver if necessary:
+
+```
+...
+	public static String ChromeExePath =  "C:\\SandboxLibraries\\chromedriver_win32\\chromedriver.exe";
+...
+```
+
+## Eclipse
+
+Run as Maven test.
+
+## mvn
+
+On the command line
+
+```
+mvn test
+```
+
+## Manual Steps - Windows
 
 ### Selenium jar
 
@@ -32,18 +58,6 @@ C:\tools\Eclipse_Win32Bit\eclipse\plugins
   com.beust.jcommander_1.72.0.jar
   org.apache-extras.beanshell.bsh_2.0.0.b6.jar
   org.yaml.snakeyaml_1.17.0.jar
-```
-
-### chromedriver
-
-Copy the `chromedriver.exe` from `G:\ProductAssurance\Selenium POC\SandboxLibraries\chromedriver_win32\chromedriver.exe` to `C:\SandboxLibraries\chromedriver_win32\chromedriver.exe`
-
-Modify the value in `utilities\Constant.Java` as the path to the chrome driver if necessary:
-
-```
-...
-	public static String ChromeExePath =  "C:\\SandboxLibraries\\chromedriver_win32\\chromedriver.exe";
-...
 ```
 
 ## Running - Windows
